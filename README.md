@@ -1,30 +1,32 @@
-# 🌌 3D Landing Page
+# 🌌 3D Landing Page with AOS & Spline 3D
 
-A simple and modern **landing page** built with **HTML5** and **CSS3**, featuring gradient effects, blur shadows, animated gradient tags, and responsive layout design.
+A modern and responsive **landing page** built with **HTML5** and **CSS3**, enhanced with **AOS (Animate on Scroll)** animations and a **Spline 3D model viewer** for an interactive experience.
 
 ---
 
 ## 🚀 Features
-- 🎨 **Dark theme** with stylish UI
-- 🌈 **Animated gradient tag box** using CSS `@keyframes`
-- 🧭 **Responsive header navigation** with hover effects
-- 🔘 **Call-to-action buttons** (`Get Started`, `Sign In`) with smooth transitions
-- ✨ **Layered blur & gradient background effects**
-- 📱 **Responsive layout** for different screen sizes
+- 🎨 **Dark theme** with gradient & blur effects  
+- 🌈 **Animated gradient tag box** using CSS `@keyframes`  
+- 🧭 **Header navigation bar** with hover effects  
+- 🔘 **Call-to-action buttons** (`Get Started`, `Sign In`) with transitions  
+- ✨ **Scroll-based animations** powered by [AOS](https://michalsnik.github.io/aos/)  
+- 🤖 **Interactive 3D model** embedded with [Spline](https://spline.design/)  
+- 📱 **Responsive design** for tablets and mobile screens  
 
 ---
 
 ## 🛠️ Tech Stack
 - **HTML5**
-- **CSS3** (Flexbox, Animations, Shadows)
+- **CSS3** (Flexbox, Media Queries, Animations)
+- **AOS.js** – Animate On Scroll Library
+- **Spline Viewer** – Interactive 3D model integration
 
 ---
 
 ## 📂 Project Structure
 ```bash
 project/
-├── index.html      # Main HTML file
-├── style.css       # Stylesheet
-└── gradient.png    # Background gradient image (used in design)
-# 3D-Landing-Page
-A simple and modern landing page built with HTML5 and CSS3, featuring gradient effects, blur shadows, animated gradient tags, and responsive layout design.
+├── index.html       # Main HTML file
+├── style.css        # Stylesheet
+├── gradient.png     # Background gradient image
+└── README.md        # Project description
